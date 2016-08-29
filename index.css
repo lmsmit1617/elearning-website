@@ -1,0 +1,1150 @@
+
+* {
+	text-decoration: none;
+
+}
+
+body {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	}
+
+header {
+	background: #008db1;
+	font-size: 15pt;
+	padding-top: 2%;
+	width: 100%;
+	text-align: right;
+	}
+
+#lines_container {
+	padding-right: 3%;
+	padding-top: 1%;
+	text-align: right;
+	}	
+
+#menu_button {
+	width: 45px;
+	}
+
+#nav_title {
+	color: #003748;
+	}
+
+.menu_hidden {
+	 height: 0px !important;
+	 width: 0px !important;
+	 opacity: 0;
+	}
+
+.menu_hidden > div {
+	 height: 0px !important;
+	 width: 0px !important;
+	 opacity: 0;
+	}
+
+.menu_transitions > div {
+	  transition: height 1s, opacity 1s, width 1s;
+	}
+
+#nav_menu {
+  		font-size: 20pt;
+  		margin-right:0px;
+  		text-align: left;
+  		background: white;
+  		padding: 1%;
+  		line-height: 150%;
+  		width: 300px;
+  		position: fixed;
+  		top: 120px;
+  		right: -20px;
+  		background: rgba(0,141,177, 0.8);
+  		color: white;
+		}
+
+#nav_menu a {
+	color: white;
+	}
+
+#nav_menu a:hover {
+	color:  #003748;
+	}
+
+.nav_item {
+	 overflow: hidden;
+	}	
+
+#bodycenter {
+	}
+
+.body_sections {
+	min-height: 900px;
+	}
+
+#home_section {
+	background: #008db1;
+	color:white;
+	text-align: center;
+	}
+
+#home_container {
+	padding-right:20%;
+	}
+
+#titlecontainer {
+	display: inline-block;
+	text-align: left;
+	padding-top: 5%;
+}
+
+#absorb {
+	font-size: 50pt;
+	padding-left: 2%
+	}
+
+#do {
+	font-size: 50pt;
+	padding-left: 2%
+	}
+
+#connect {
+	font-size: 90pt;
+	color: #FFC895;	
+	text-align: left;
+	margin-top: -2%;
+	}
+
+#hand_container {
+	display: inline-block;
+	}
+
+#hand_img {
+	width: 180px;
+	position: relative;
+	top: 110px;
+	margin-left: -40%;
+	}
+
+#elearn {
+	font-size: 35pt;
+	padding-left: 24%;
+	position: relative;
+	top: 95px;
+	}
+
+#down_arrow {
+	width: 100px;
+	position: relative;
+	top: 200px;
+	}
+
+#down_arrow:hover {
+	width: 150px;
+	}
+
+#about_me_section {
+	height: 100%;
+	color:#003748;
+	padding-bottom: 3%;
+	}
+
+#about_me_section a {
+	color: white;
+	padding-bottom: 10%;
+	}
+
+#aboutme {
+	font-size: 50pt;
+	padding-left: 23%;
+	}
+
+#left_container {
+	display: inline-block;
+	background: white;
+	padding-bottom: 15%;
+	padding-top: 12%;
+	padding-left: 5%;
+	width: 49%
+	}
+
+#right_container {
+	display: inline-block;
+	font-size: 20pt;
+	margin-top: 4%;
+	width: 40%
+	padding-left: 2%;
+	}
+
+.description_container {
+	font-size: 20pt;
+	width: 500px;
+	padding-left: 23%;
+	margin-top: 2%;
+	line-height: 140%;
+	}
+
+#roles_bubbles_container {	
+	text-align: center;
+	width: 400px;
+	position: relative;
+	bottom: 200px;
+	margin-left: 15%;
+    }
+
+.role_container {
+	background: #003748;
+	color: white;
+	height: 150px;
+	width: 150px;
+	border-radius: 5%;
+	margin: 2%;
+	text-align: center;
+	display: inline-block;
+	font-size: 15pt;
+	}
+
+.role_container: hover {
+	background-color: black;
+	color: white;
+	}
+
+.text_in_bubble {
+	position: relative;
+	top: 40%;
+	text-decoration: none;
+	}
+
+/*
+#designer_container {
+	background: #008db1;
+	}
+
+#designer_container:hover {
+	background: #003748;
+	}
+
+#developer_container {
+	background: #006e8c ;
+	}
+
+#developer_container:hover {
+	background-color: #004e63;
+	}
+
+a#developer {
+	}
+
+#educator_container {
+	background: #004e63;
+	}
+
+#educator_container:hover {
+	background: #006e8c;
+	}
+
+a#educator {
+	}
+
+#administrator_container {
+	background: #003748 ;
+	}
+
+#administrator_container:hover {
+	background: #008db1;
+	}
+
+a#administrator {
+	}
+*/
+#mission_section {
+	background: #460e56;
+	color: white;
+	}
+
+#mission {
+	font-size: 50pt;
+	padding-left: 12%;
+	padding-top: 10%;
+	padding-bottom: 5%
+	}
+
+#mission_statement_1 {
+	font-size: 20pt;
+	padding-left: 50%;
+	padding-right: 10%;
+	padding-bottom: 3%
+	width: 200px;
+	line-height: 180%;
+	}
+
+#ongoing {
+	font-size: 50pt;
+	padding-top: 1%;
+	padding-left: 50%;
+	width: 380px;
+	}
+
+#learning_development {
+	font-size: 20pt;
+	padding-left: 65%;
+	color: #FFC957;
+	}
+
+#addie {
+	font-size: 20pt;
+	padding-left: 12%;
+	padding-top: 5%;
+	}
+
+#sword_guy {
+	padding-left: 16%;
+	height: 120px;
+	width: 120px;
+	}
+
+#fighter {
+	padding-left: 28%;
+	padding-top: 5%;
+	width: 190px;
+	}
+
+#sam {
+	font-size: 30pt;
+	padding-left: 35%;
+	padding-bottom: 5%
+	padding-top: 10%;
+	}
+
+#fighter {
+	height: 200px;
+	width: 200px;
+	}
+
+#beliefs {
+	font-size: 20pt;
+	padding-left: 50%;
+	padding-right: 10%;
+	padding-bottom: 3%
+	width: 200px;
+	line-height: 180%;
+	}
+
+#high_five {
+	padding-left: 80%;
+	padding-right: 4%;
+	padding-top: 3%;
+	padding-bottom: 10%;
+	width: 100px;
+	}
+
+
+#elearning_samples_section {
+	background: #676BC7;
+	color: white;
+	height: 1100px;
+	}
+
+#elearning {
+	font-size: 50pt;
+	padding-left: 15%;
+	padding-bottom: 7%;
+	padding-top: 10%;
+	}
+
+#sample_bubbles_container_1 {
+	padding-top: 1;
+	text-align: center;
+	}
+
+#sample_bubbles_container_2 { 
+	padding-top: 1;
+	text-align: center;
+}
+
+.sample_container {
+	border-radius: 50%;
+	text-align: center;
+	font-size: 20pt;
+	color: white;
+	width: 180px;
+	height: 180px;
+	display: inline-block;
+	margin: 1%;
+	}
+
+.sample_container a {
+	color: white;
+	}
+	
+.text_button {
+	position: relative;
+	top: 70px;
+	}
+
+
+#analysis_container {
+	background: #D0D2FF;
+	color:#292B4F;
+	}
+
+#analysis_container:hover {
+	background: #5559A3;
+	color: white;
+	}
+
+#developed_module_container {	
+	background: #292B4F;
+	}
+
+#developed_module_container:hover {
+	background: #5559A3;
+	}
+
+#storyboard_container {
+	background: #5559A3;
+	}
+
+#storyboard_container:hover {
+	color: white;
+	background-color: #42457F;
+	}
+
+#written_proposal_container {
+	background: #757AE3;
+	}
+
+#written_proposal_container:hover {
+	background-color: #292B4F;
+	}
+
+#design_map_container {
+	background: #42457F;
+	}
+
+#design_map_container:hover {
+	background-color: #0B0B14;
+	}	
+
+#evaluation_container {
+	background: #0B0B14;
+	}
+
+#evaluation_container:hover {
+	background-color: #292B4F;
+	}
+
+
+#web_development_samples_section {
+	background: #F7F6F6;
+	color:#033076;
+	height: 1000px;
+	}
+
+#web_development_samples_section a {
+	text-decoration:none;
+	color: white;
+	}
+
+#web_dev_samples_title {
+	font-size: 50pt;
+	padding-left: 15%;
+	padding-top: 10%;
+	padding-bottom: 8%
+	}
+
+#dev_container {
+	font-size: 30pt;
+	padding-left: 14%;
+	}
+
+.dev_containers {
+	display: inline-block;
+	margin-left: 5%;
+	height: 230px;
+	width: 255px;
+	}
+
+.dev_images {
+	margin-left: 6%;
+	margin-top: 15%;
+	width: 110px;
+	text-align: center;
+	}
+
+.dev_buttons {
+ 	display: inline-block;
+ 	font-size: 20pt;
+	background: #033076;
+	color: white;
+	padding: 7%;
+	border: none;
+	outline: none;
+	}
+
+.dev_buttons:hover {
+	background: #008cc9;
+	}
+
+#elearning_lisa {
+	display: inline-block;
+ 	font-size: 20pt;
+	border: none;
+	outline: none;
+	}
+
+#my_vision {
+	margin-left: 8%;
+}
+
+#light_bulb {
+	margin-left: 17%;
+	width: 116px;
+}
+
+#online_wireframe {
+	margin-left: 35%;
+	position: relative;
+	top: -20px;
+	}
+
+#github {
+	margin-left: 40%;
+	position: relative;
+	top: -20px;
+	padding: 8%;
+	}
+
+#more_samples_section {
+	background: white;
+	color: #232323;
+	height: 1100px;
+	padding-bottom: 25%;
+	}
+
+#more_samples_title {
+	font-size: 50pt;
+	padding-left: 20%;
+	padding-top: 10%;
+	}
+
+.more_samples_container {
+	margin-left:20%;
+	font-size: 20pt;
+	margin-top: 3%;
+	line-height: 150%;
+	background: #F7F6F6;
+	padding: 2%;
+	width: 500px;
+	}
+
+.sample_list_item a {
+	color: #606060;
+	}
+
+.sample_list_item a:hover {
+	color:black;
+	}
+
+footer {
+	min-height: 750px;
+	max-height: 850px;
+	background: #629C44;
+	color: white;
+	font-size: 15pt;
+	}
+
+footer a {
+	color: white;
+		}
+
+footer a:hover { 
+    color: #243E16;
+	}
+
+#navigation_container {
+	display: inline-block;
+	margin-top: 10%;
+	line-height: 180%;
+	width: 20%;
+	height: 100%;
+	margin-left: 30%;
+	}
+
+#contact_container {
+	display: inline-block;
+	line-height: 180%;
+	padding-left: 7%;
+	width: 20%;
+	position: relative;
+	top: -35px;
+	}
+
+img#linkedin_img {
+	 height: 50px;
+	 padding-top: 2%;
+	}
+
+#copywrite_container {
+	font-size: 10pt;
+	text-align: center;
+	margin-top: 13%;
+	}
+
+.footer_titles {
+	color: #243E16;
+	}
+
+.scrollToTop {
+
+	}
+
+.scrollToTop:hover{
+	text-decoration:none;
+	}
+
+#about_me_scroll  {
+
+	}
+
+#mission_scroll{
+
+	}
+#elearning_scroll{
+
+	}
+#dev_scroll{
+
+	}
+
+@media (max-width: 1200px) {
+
+	#header_container {
+		width: 85%;
+		padding-right: 2%;
+		}
+
+	#home_section {
+		height: 700px;
+		}
+
+	#absorb {
+		padding-top: 20%;
+		}
+
+	#connect {
+		font-size: 60pt;
+		}
+
+	#about_me_section a {
+		font-size: 15pt;
+		height: 700px;
+		}
+
+	#aboutme {
+		font-size: 40pt;
+		padding-top: 15%;
+		}
+		
+	#left_container {
+		display: block;
+		padding-left: 5%;
+		}
+
+	#right_container {
+		display: block;
+		font-size: 20pt;
+		padding-top: 5%;
+		}
+
+	.description_container {
+		font-size: 20pt;
+		width: 550px;
+		padding-left: 23%;
+		margin-top: 4%;
+		}
+
+	#roles_bubbles_container {
+		text-align: left;	
+		width: 800px;
+		margin-top: 5%;
+		display: none;
+	    }
+
+	.role_container {
+		height: 160px;
+		width: 160px;
+		}
+
+	#mission {
+		padding-top: 17%;
+		padding-left: 15%;
+		font-size: 40pt;
+		}
+
+	#elearning {
+		font-size: 40pt;
+		padding-top: 20%;
+		}
+
+	#sample_bubbles {
+		width: 600px;
+		padding-left: 14%;
+		}
+
+	#web_development_samples_section {
+		max-height: 200px;
+		padding-bottom: 0%
+		margin-bottom: 0%;
+		}
+
+	#web_dev_samples_title {
+		font-size: 40pt;
+		padding-top: 18%;
+		padding-bottom: 8%;
+		}
+
+	#dev_container {
+		font-size: 20pt;
+		padding-left: 10%;
+		}
+
+	.dev_containers {
+		margin-left: 0%;
+		}
+
+	#my_vision_container {
+		margin-left: 10%;
+		}
+
+	#elearning_lisa {
+		font-size: 15pt;
+		margin-left: 2%;
+		}
+
+	#my_vision {
+		margin-left: 7%;
+		margin-bottom: 4%;
+		}
+
+	#light_bulb {
+		margin-left: 10%;
+		}
+
+	#my_code_container {
+		margin-left: 3%;
+		}
+
+
+	#more_samples_section {
+		height: 700px;
+		padding-bottom: 40%;
+		}
+
+	#more_samples_title {
+		font-size: 40pt;
+		padding-top: 15%;
+		padding-left: 15%;
+		}
+ 
+	.more_samples_container {
+		margin-left: 15%;
+		margin-top: 5%;
+		}
+
+	#navigation_container {
+		width: 30%;
+		height: 100%;
+		margin-left: 22%;
+		padding-left: 2%;
+		}
+
+	#contact_container {
+		width: 20%;
+		position: relative;
+		top: -35px;
+		}
+
+	footer {
+		min-height: 760px;
+		max-height: 800px;
+		}
+}
+
+
+@media (max-width: 1066px) {
+
+	#titlecontainer {
+	padding-left: 20%;
+	padding-top: 20%;
+	}
+
+	#roles_bubbles_container {
+		text-align: left;	
+		width: 500px;
+		margin-top: 10%;
+		display: none;
+	    }
+
+
+	#mission_section {
+		background: #460e56;
+		color: white;
+		}
+
+	#mission {
+		font-size: 40pt;
+		padding-left: 12%;
+		padding-top: 10%;
+		padding-bottom: 5%
+		}
+
+	#mission_statement_1 {
+		font-size: 20pt;
+		padding-left: 12%;
+		padding-right: 20%;
+		padding-bottom: 3%
+		width: 200px;
+		line-height: 180%;
+		}
+
+	#ongoing {
+		font-size: 50pt;
+		padding-top: 1%;
+		padding-left: 20%;
+		width: 380px;
+		}
+
+	#learning_development {
+		font-size: 20pt;
+		padding-left: 35%;
+		color: #FFC957;
+		}
+
+	#addie {
+		font-size: 20pt;
+		padding-left: 12%;
+		padding-top: 5%;
+		}
+
+	#sword_guy {
+		padding-left: 16%;
+		height: 120px;
+		width: 120px;
+		}
+
+	#fighter {
+		padding-left: 28%;
+		padding-top: 5%;
+		width: 100px;
+		}
+
+	#sam {
+		font-size: 20pt;
+		padding-left: 35%;
+		padding-bottom: 5%
+		padding-top: 10%;
+		}
+
+	#fighter {
+		height: 200px;
+		width: 200px;
+		}
+
+	#beliefs {
+		font-size: 20pt;
+		padding-left: 50%;
+		width: 400px;
+		height:150px;
+		line-height: 180%;
+		padding-top: 8%;
+		padding-right: 10%;
+		}
+
+	#high_five {
+		padding-left: 50%;
+		padding-right: 4%;
+		margin-top: 15%;
+		padding-bottom: 15%;
+		width: 100px;
+		}
+
+	#web_development_samples_section {
+		padding-bottom: 65%;
+		padding-top: 0%;
+		}
+
+	#dev_container {
+		font-size: 30pt;
+		padding-left: 0%;
+		}
+	
+	#web_dev_samples_title {
+		padding-left: 14%;
+		margin-left: 0%;
+		padding-bottom: 2%;
+		}
+
+	.dev_containers {
+		display: block;
+		padding-left: 0%;
+		padding-right: 0%;
+		padding-top: 0%;
+		padding: 5%;
+		background-color: white;
+		margin-left: 14%;
+		margin-top: 4%;
+		}
+
+	#my_vision_container {
+		margin-left: 14%;
+		padding-left: 5%;
+		padding-bottom: 8%;
+		text-align: center;
+		}
+
+	#my_code_container {
+		margin-left: 14%;
+		}
+
+	#elearning_lisa {
+		display: inline-block;
+	 	font-size: 20pt;
+		border: none;
+		outline: none;
+		margin-left: 0%;
+		line-height: 120%;
+		}
+
+	#my_vision {
+		margin-left: 0%;
+	}
+
+	#light_bulb {
+		margin-left: 0%;
+		width: 116px;
+	}
+
+}
+
+@media (max-width: 890px) {
+	
+	#beliefs {
+		padding-left: 30%;
+	}
+}
+
+
+@media (max-width: 771px) {
+
+	#home_section {
+			height: 500px;
+		}
+
+	#titlecontainer {
+		padding-left: 20%;
+		}
+
+	#absorb {
+		font-size: 40pt;
+		}
+	
+	#do {
+		font-size: 40pt;
+		}
+
+	#connect {
+		font-size: 40pt;
+		}
+
+
+	#about_me_section a {
+		color: white;
+		}
+
+	#aboutme {
+		font-size: 40pt;
+		padding-left: 12%;
+		}
+
+	#left_container {
+		display: inline-block;
+		background: white;
+		padding-bottom: 15%;
+		padding-top: 10%;
+		width: 49%
+		}
+
+	#right_container {
+		display: inline-block;
+		font-size: 20pt;
+		margin-top: 15%;
+		width: 49%
+		}
+
+	.description_container {
+		font-size: 20pt;
+		width: 400px;
+		padding-left: 13%;
+		margin-top: 2%;
+		}
+
+	#roles_bubbles_container {	
+		text-align: center;
+		width: 400px;
+		position: relative;
+		top: -160px;
+		margin-left: 15%;
+	    }
+
+	.role_container {
+		background: #2C7F94;
+		color: white;
+		height: 150px;
+		width: 150px;
+		border-radius: 50%;
+		margin: 2%;
+		text-align: center;
+		display: inline-block;
+		font-size: 15pt;
+		}
+
+	.role_container:hover {
+		background-color: black;
+		color: white;
+		}
+
+	.text_in_bubble {
+		position: relative;
+		top: 40%;
+		text-decoration: none;
+		}
+
+	#more_samples_title {
+		text-align: center;
+		padding-left: 0%;
+		}
+ 
+	.more_samples_container {
+		margin-left: 5%;
+		margin-right: 10%;
+		margin-top: 10%;
+		}
+
+	#navigation_container {
+		display: block;
+		width: 40%;
+		margin-left: 20%;
+		padding-top: 10%;
+		}
+
+	#contact_container {
+		width: 40%;
+		margin-top: 10%;
+		margin-left: 15%;
+		}
+
+}
+
+@media (max-width: 610px) {
+
+	#mission {
+		padding-top: 17%;
+		}
+
+	#mission_statement_1 {;
+		padding-left: 12%;
+		padding-right: 10%;
+		}
+
+	#ongoing {
+		width: 200px;
+		}
+
+	#beliefs {
+		padding-left: 12%;
+		padding-right: 10%;
+		margin-right: 0%;
+		margin-left: 0%;
+		padding-top: 15%;
+		width: 380px;
+		}
+
+	#elearning_samples_section {
+		padding-bottom: 50%;
+		}
+
+	#sample_bubbles_container_1 {
+		width: 100px;
+		padding-left: 30%;
+		}
+	
+	#sample_bubbles_container_2 {
+		width: 100px;
+		padding-left: 30%;
+		}
+}
+
+@media (max-width: 615px) {
+
+		#header_container {
+		width: 75%;
+		}
+
+	#hand_img {
+		width: 180px;
+		top: 50px;
+		margin-left: 30%;
+		}
+
+	#elearn {
+		position: relative;
+		top: 60px;
+		}	
+}
+
+@media (max-width: 480px) {
+
+	#aboutme {
+		font-size: 30pt;
+		} 
+	
+	#roles_bubbles_container {
+		margin-top: 70px;
+		}
+
+	.role_container {
+		height: 130px;
+		width: 130px;
+		margin: 1%;
+		font-size: 10pt;
+		}
+
+	#description_container_designer {
+		font-size: 20pt;
+		width: 250px;
+		}
+
+	#roles_bubbles_container {
+		width: 280px;
+		}
+
+	#elearning {
+		font-size: 30pt;
+		}
+
+	#web_dev_samples_title {
+		font-size: 30pt;
+		}
+
+	#more_samples_title {
+		font-size: 30pt;
+		}
+
+#elearning_samples_section {
+	padding-bottom: 60%;
+}
+
+}
+
+
